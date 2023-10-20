@@ -1,0 +1,10 @@
+#!/bin/bash
+
+IMAGE=maven-project
+TAG=10
+PASS=rakhimindplm
+
+sudo docker login -u rakhiammu -p $PASS
+cd /home/prod-user/maven
+sudo docker-compose up -d
+       	 
